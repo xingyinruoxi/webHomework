@@ -1,10 +1,3 @@
-// JavaScript Document
-
-//如何在一个网站或者一个页面，去书写你的JS代码：
-
-//1.js的分层(功能) : jquery(tools)  组件(ui)  应用(app), mvc(backboneJs)
-//2.js的规划(管理) : 避免全局变量和方法(命名空间，闭包，面向对象) , 模块化(seaJs,requireJs)
-
 window.onload = function(){
 	mv.app.toTip();
 	mv.app.toBanner();
