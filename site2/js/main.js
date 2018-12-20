@@ -110,6 +110,13 @@ $(function () {
     //页面滚动时定位
     $(window).scroll(function () {
         var targetTop = $(this).scrollTop();
+        var toTop=$('.btn-back-top');
+        toTop.hide();
+        if (targetTop < 600){
+            toTop.hide();
+        }else{
+            toTop.show();
+        }
         if (targetTop < 800) {
             subNav_scroll($(".div1"));
         } else if (targetTop > 800 && targetTop < 1750) {
@@ -135,8 +142,17 @@ $(function () {
     });
 
     //禁止右键点击
-    $('body').bind('contextmenu', function() {
+   /* $('body').bind('contextmenu', function() {
         return false;
-    });
+    });*/
+    //返回顶部
+    function toTop(){
+        var btnTop=$('.btn-back-top');
+        btnTop.click(function () {
+            $('html,body').animate({scrollTop: 0},'slow');
+        });
+    }
+
+    toTop();
     login()//登录
 }());

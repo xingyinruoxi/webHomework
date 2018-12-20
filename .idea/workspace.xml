@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65a64676-5eb0-4e76-952e-3b7873a9cc15" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/site2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site2/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/site2/img/arrow.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/site/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site2/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/site2/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site2/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/site2/js/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,57 +21,67 @@
     <session id="-350164006">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="2" />
+          <entry key="css" value="3" />
           <entry key="html" value="2" />
           <entry key="js" value="2" />
-          <entry key="png" value="1" />
+          <entry key="png" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="2" />
+          <entry key="CSS" value="3" />
           <entry key="HTML" value="2" />
-          <entry key="Image" value="1" />
+          <entry key="Image" value="2" />
           <entry key="JavaScript" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="297" />
-          <entry key="html" value="1205" />
-          <entry key="js" value="856" />
+          <entry key="css" value="429" />
+          <entry key="html" value="1258" />
+          <entry key="js" value="1023" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="297" />
-          <entry key="HTML" value="1205" />
-          <entry key="JavaScript" value="856" />
+          <entry key="CSS" value="429" />
+          <entry key="HTML" value="1258" />
+          <entry key="JavaScript" value="1023" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/site2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="268" column="17" lean-forward="true" selection-start-line="268" selection-start-column="17" selection-end-line="268" selection-end-column="17" />
+            <state relative-caret-position="175">
+              <caret line="247" column="18" lean-forward="true" selection-start-line="247" selection-start-column="18" selection-end-line="247" selection-end-column="18" />
               <folding>
-                <element signature="e#915#921#0" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h1#0;n#div#0;n#div#4;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#4;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#5;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#9558#9564#1" expanded="true" />
+                <element signature="e#9885#9891#1" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/site2/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="231" column="1" lean-forward="true" selection-start-line="231" selection-start-column="1" selection-end-line="231" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -79,8 +89,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/site2/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="139" column="7" selection-start-line="137" selection-start-column="3" selection-end-line="139" selection-end-column="7" />
+            <state relative-caret-position="223">
+              <caret line="113" column="21" selection-start-line="113" selection-start-column="21" selection-end-line="113" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -111,8 +121,8 @@
       <list>
         <option value="$PROJECT_DIR$/site/js/main.js" />
         <option value="$PROJECT_DIR$/site/index.html" />
-        <option value="$PROJECT_DIR$/site2/css/main.css" />
         <option value="$PROJECT_DIR$/site2/index.html" />
+        <option value="$PROJECT_DIR$/site2/css/main.css" />
         <option value="$PROJECT_DIR$/site2/js/main.js" />
       </list>
     </option>
@@ -123,7 +133,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="565" />
     <option name="y" value="53" />
     <option name="width" value="1346" />
@@ -153,13 +163,7 @@
               <item name="webHomework" type="b2602c69:ProjectViewProjectNode" />
               <item name="webHomework" type="462c0819:PsiDirectoryNode" />
               <item name="site2" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="webHomework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webHomework" type="462c0819:PsiDirectoryNode" />
-              <item name="site2" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -176,6 +180,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\webHomework\site2\img" />
       <recent name="F:\ETD\webHomework" />
     </key>
   </component>
@@ -214,12 +219,13 @@
       <updated>1543218191856</updated>
       <workItem from="1543218194027" duration="819000" />
       <workItem from="1543281017332" duration="682000" />
-      <workItem from="1545187921393" duration="14894000" />
+      <workItem from="1545187921393" duration="15592000" />
+      <workItem from="1545265596356" duration="2885000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16395000" />
+    <option name="totallyTimeSpent" value="19978000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -228,7 +234,6 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23363096" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -237,8 +242,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.29885057" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.29836065" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -264,32 +270,34 @@
     <entry file="file://$PROJECT_DIR$/site2/img/bank1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/site2/img/arrow.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/site2/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="136" column="17" selection-start-line="136" selection-start-column="17" selection-end-line="136" selection-end-column="17" />
+        <state relative-caret-position="315">
+          <caret line="231" column="1" lean-forward="true" selection-start-line="231" selection-start-column="1" selection-end-line="231" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="268" column="17" lean-forward="true" selection-start-line="268" selection-start-column="17" selection-end-line="268" selection-end-column="17" />
+        <state relative-caret-position="175">
+          <caret line="247" column="18" lean-forward="true" selection-start-line="247" selection-start-column="18" selection-end-line="247" selection-end-column="18" />
           <folding>
-            <element signature="e#915#921#0" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h1#0;n#div#0;n#div#4;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#1;n#ul#0;n#div#0;n#div#4;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#li#3;n#ul#0;n#div#1;n#div#0;n#div#5;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#9558#9564#1" expanded="true" />
+            <element signature="e#9885#9891#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/site2/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="139" column="7" selection-start-line="137" selection-start-column="3" selection-end-line="139" selection-end-column="7" />
+        <state relative-caret-position="223">
+          <caret line="113" column="21" selection-start-line="113" selection-start-column="21" selection-end-line="113" selection-end-column="21" />
         </state>
       </provider>
     </entry>
