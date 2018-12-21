@@ -8,6 +8,30 @@ $(".ywxt_list dl").mouseover(function () {
 });
 
 $(function () {
+
+    //轮播图
+    function slidePic() {
+        var $next = $('#next'),
+            $prev = $('#prev'),
+            arrPic = $('.list-pic').find('li'),
+            slidePic = $('#slidePic');
+        var iNow = 0;
+        var timer = null;
+
+        function toRun() {
+            iNow++;
+            arrPic.eq(iNow%3).fadeIn('1000').siblings().fadeOut('1000');
+        }
+
+        timer = setInterval(toRun, 2000);
+        slidePic.hover(function () {
+            clearInterval(timer);
+        }, function () {
+            timer = setInterval(toRun, 2000);
+        })
+
+    }
+
     function login() {
         var btnLogin = $('.btn-login'),
             mask = $('#mask'),
@@ -18,19 +42,20 @@ $(function () {
             btnCloseModal = $('.dl-modal').find('.btn-close');
 
 
-        if(!localStorage.getItem('login')){
+        if (!localStorage.getItem('login')) {
             mask.fadeIn(function () {
                 modal.animate({top: '50%'}, 'slow');
                 $('.btn-login').show('fast');
                 $('.userInfo').hide('fast');
             });
-        }else{
-            $('body').css('overflow','auto');
+        } else {
+            $('body').css('overflow', 'auto');
             $('.btn-login').hide('fast');
             $('.userInfo').show('fast');
         }
+
         function closeModal() {
-            $('body').css('overflow','auto');
+            $('body').css('overflow', 'auto');
             modal.animate({top: '-500px'}, 'slow', function () {
                 mask.fadeOut();
                 $('.btn-login').hide('fast');
@@ -41,7 +66,7 @@ $(function () {
         }
 
         function openModal() {
-            $('body').css('overflow','hidden');
+            $('body').css('overflow', 'hidden');
             mask.fadeIn(function () {
                 modal.animate({top: '50%'}, 'slow');
                 $('.btn-login').show('fast');
@@ -110,11 +135,11 @@ $(function () {
     //页面滚动时定位
     $(window).scroll(function () {
         var targetTop = $(this).scrollTop();
-        var toTop=$('.btn-back-top');
+        var toTop = $('.btn-back-top');
         toTop.hide();
-        if (targetTop < 600){
+        if (targetTop < 600) {
             toTop.hide();
-        }else{
+        } else {
             toTop.show();
         }
         if (targetTop < 800) {
@@ -142,17 +167,19 @@ $(function () {
     });
 
     //禁止右键点击
-   /* $('body').bind('contextmenu', function() {
-        return false;
-    });*/
+    /* $('body').bind('contextmenu', function() {
+         return false;
+     });*/
+
     //返回顶部
-    function toTop(){
-        var btnTop=$('.btn-back-top');
+    function toTop() {
+        var btnTop = $('.btn-back-top');
         btnTop.click(function () {
-            $('html,body').animate({scrollTop: 0},'slow');
+            $('html,body').animate({scrollTop: 0}, 'slow');
         });
     }
 
+    slidePic();//轮播图
     toTop();
     login()//登录
 }());
